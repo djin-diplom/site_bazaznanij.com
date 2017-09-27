@@ -206,7 +206,7 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 				case 2: echo "<span style='color: forestgreen;'>Ждем методичку и оплату (".((int)($zakaz_cena*0.8))." руб.), чтобы начать работу!</span><br>";
 					break;
 			}?>
-			Пришлём бесплатно примеры работы вашего автора.<br>
+			Пришлём бесплатно примеры работ вашего автора.<br>
 		</td>
 	</tr>
 	<tr>
