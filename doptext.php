@@ -1,5 +1,5 @@
 <br>
-<h4>Пример работы <?php echo $name_rab_text." № ".$count_text; ?></h4>
+<h4>Пример диплома </h4>
 <?php
 $f = fopen("texts2/new_" . $count_text, "r");
 $col_simv = 0;
