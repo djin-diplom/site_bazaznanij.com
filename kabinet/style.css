@@ -1,0 +1,14 @@
+TABLE {
+    width: 200px; /* Ширина таблицы */
+    border: 2px solid black; /* Рамка вокруг таблицы */
+    background: silver; /* Цвет фона таблицы */
+}
+TD, TR {
+    text-align: center; /* Выравнивание по центру */
+    padding: 3px; /* Поля вокруг содержимого ячеек */
+}
+TR {
+    background: #4682b4; /* Цвет фона */
+    color: white; /* Цвет текста */
+    border-bottom: 2px solid black; /* Линия снизу */
+}
