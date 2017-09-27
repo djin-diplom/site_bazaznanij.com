@@ -9,6 +9,7 @@ $url_town_kazan = 'http://kazan.'.$main_name.'/';
 $url_town_novosibirsk = 'http://novosibirsk.'.$main_name.'/';
 $url_town_ufa = 'http://ufa.'.$main_name.'/';
 $vremia_raboti = "С 9:00 до 19:00, выходной воскресенье";
+$site_phone = '8 (800) 411-32-26';
 
 
 //$img_path_1 = "./index_files/1_logo_55 (2).png";
@@ -33,7 +34,6 @@ $site_otzv_url_2 = "http://vivadiplom.ru/raiting/74/knowbaza/";
     $site_name_6 = "Bazaznanij.com";
     $password = '111qwaszx';
     $site_url = "http://".$main_name."/";
-    $site_phone = "+7 (960) 590 95 72";
     $email = "zakaz@".$main_name;
     $email_1 = "advertisement@".$main_name;
     $email_2 = "advertising@".$main_name;
@@ -48,9 +48,9 @@ $site_otzv_url_2 = "http://vivadiplom.ru/raiting/74/knowbaza/";
     $email_11 = "ad@".$main_name;
     $email_12 = "publicity@".$main_name;
     $email3 = "info@".$main_name;
-    $adres = "г. Санкт-Петербург, ул. Академика Лебедева,<br> дом № 12, oф. 169-170";
-    $url_adres_yandex = "https://yandex.ru/maps/-/CBUVY-G~cD";
-    $url_adres_yandex_frame = "<iframe src=\"https://yandex.ru/map-widget/v1/-/CBUVY-G~cD\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
+    $adres = "г. Санкт-Петербург, ул. Ленина,<br> дом № 28, oф. 56";
+    $url_adres_yandex = "https://yandex.ru/maps/-/CBUcmEFopA";
+    $url_adres_yandex_frame = "<iframe src=\"https://yandex.ru/map-widget/v1/-/CBUcmEFopA\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
     $url_oplata = "https://money.yandex.ru/to/410014980039098";
 
 $main_name_temp = $main_name;
@@ -59,7 +59,6 @@ if (@$town == 'kazan') {
     $main_name = "Kazan.".$main_name;
     $password = '111qwaszx';
     $site_url = "http://".$main_name."/";
-    $site_phone = "+7 (960) 590 95 72";
     $email = "zakaz@".$main_name;
     $email_1 = "advertisement@".$main_name;
     $email_2 = "advertising@".$main_name;
@@ -86,7 +85,6 @@ if (@$town == 'moscow') {
     //$site_name = 'Вива-Студентс.ру';
     $password = '111qwaszx';
     $site_url = "http://".$main_name."/";
-    $site_phone = "+7 (960) 590 95 72";
     $email = "zakaz@".$main_name;
     $email_1 = "advertisement@".$main_name;
     $email_2 = "advertising@".$main_name;
@@ -114,7 +112,6 @@ if (@$town == 'novosibirsk') {
     //$site_name = 'Вива-Студентс.ру';
     $password = '111qwaszx';
     $site_url = "http://".$main_name."/";
-    $site_phone = "+7 (960) 590 95 72";
     $email = "zakaz@".$main_name;
     $email_1 = "advertisement@".$main_name;
     $email_2 = "advertising@".$main_name;
@@ -141,7 +138,6 @@ if (@$town == 'ufa') {
     //$site_name = 'Вива-Студентс.ру';
     $password = '111qwaszx';
     $site_url = "http://".$main_name."/";
-    $site_phone = "+7 (960) 590 95 72";
     $email = "zakaz@".$main_name;
     $email_1 = "advertisement@".$main_name;
     $email_2 = "advertising@".$main_name;

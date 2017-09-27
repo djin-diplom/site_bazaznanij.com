@@ -33,7 +33,7 @@ require("header.php");
 			<h1>Примеры</h1>
 			<?php
 
-			for($i = 1; $i < 66; $i++) {
+			for($i = 1; $i < 16; $i++) {
 				$count = $i;
 				$name_rab = $count % 11;
 				switch ($name_rab) {

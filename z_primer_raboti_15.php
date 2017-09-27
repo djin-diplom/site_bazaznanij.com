@@ -84,7 +84,7 @@ require("header.php");
 				fclose($f);
 			$count_text = $count_text + 1;
 			?>
-			<br><a href="z_primer_raboti_<?php echo $count_text; ?>.php">Смотреть пример работы <?php echo $count_text; ?> далее</a>
+			<br><a href="z_primer_raboti_1.php">Смотреть пример работы 1 далее</a>
 		</div>
 
 
