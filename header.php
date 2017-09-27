@@ -11,7 +11,7 @@
 			<div class="addr"><a target="_blank" href="<?php echo $url_adres_yandex; ?>">
 					<img src="./index_files/loc.gif" width="57" height="40" alt=""></a><b><?php echo $adres; ?></b><br><?php echo $vremia_raboti; ?></div>
 			<div class="phone">
-				<div id="pnumber" style="margin:0px 0px 0px 0px"><!--<img src="./index_files/phone2.png" class="blink"> --><span><?php echo $email; ?></span>
+				<div id="pnumber" style="margin:0px 0px 0px 0px"><!--<img src="./index_files/phone2.png" class="blink"> --><a href="order.php">Заказать ответ</a>
 				</div>
 				
 				<div><span><?php echo $email2; ?></span>

@@ -194,16 +194,19 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 			Мы оценили стоимость выполнения Вашей работы:<br>
 			<a style="text-decoration:none;color:#5298ef" href="<?php echo $url_cabinet."?client_email=".$client_email."&"."client_pass=".$client_pass."&kabinet=1"; ?>" target="_blank" data-saferedirecturl="<?php echo $url_cabinet; ?>"><?php echo $zakaz_teme; ?></a><br>
 			Номер заказа <?php echo $zakaz; ?><br>
-			Логин для входа в Личный кабинет (и ссылка): <a style="text-decoration:none;color:#5298ef" href="<?php echo $url_cabinet."?client_email=".$client_email."&"."client_pass=".$client_pass."&kabinet=1"; ?>" target="_blank" data-saferedirecturl="<?php echo $url_cabinet; ?>"><?php echo $client_email; ?></a><br>
+			Логин для входа в Личный кабинет (нажмите на ссылку): <a style="text-decoration:none;color:#5298ef" href="<?php echo $url_cabinet."?client_email=".$client_email."&"."client_pass=".$client_pass."&kabinet=1"; ?>" target="_blank" data-saferedirecturl="<?php echo $url_cabinet; ?>"><?php echo $client_email; ?></a><br>
 			Запомните Ваш пароль: <?php echo $client_pass; ?><br>
 			<?php switch ($predoplata) {
-				case 0: echo "<span style='color: forestgreen;'>Ждем методичку, чтобы начать выполнение работы без предоплаты!</span><br>";
+				case 0: echo "<span style='color: forestgreen;'>Ждем методичку, чтобы начать выполнение работы без предоплаты!</span><br>
+Акция: стоимость можно снизить на 20%!<br>";
 					break;
-				case 1: echo "<span style='color: forestgreen;'>Ждем методичку и предоплату 50% (".((int)($zakaz_cena*0.9*0.5))." руб.), чтобы начать работу!</span><br>";
+				case 1: echo "<span style='color: forestgreen;'>Ждем методичку и предоплату 50% (".((int)($zakaz_cena*0.9*0.5))." руб.), чтобы начать работу!</span><br>
+				Акция: стоимость можно снизить на 10%!<br>";
 					break;
 				case 2: echo "<span style='color: forestgreen;'>Ждем методичку и оплату (".((int)($zakaz_cena*0.8))." руб.), чтобы начать работу!</span><br>";
 					break;
 			}?>
+			Пришлём бесплатно примеры работы вашего автора.<br>
 		</td>
 	</tr>
 	<tr>
@@ -261,7 +264,8 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 					Мы работаем официально по договору публичной оферты.<br>
 					Корректировки по замечаниям руководителя бесплатны.<br>
 					Мы будем выполнять работу по Вашим указаниям.<br>
-					Гарантия на работу два месяца.<br>
+				    Можем заключить индвидуальный договор.<br>
+					Гарантия на работу три месяца.<br>
 
 <a href="<?php echo $site_url; ?>oplata.php"><img class="desaturated" src="<?php echo $path_img; ?>index_files/pay3.gif" width="85" height="37" alt="">
 <img class="desaturated" src="<?php echo $path_img; ?>index_files/pay6.gif" width="135" height="37" alt="">
