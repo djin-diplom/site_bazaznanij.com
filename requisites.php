@@ -1,7 +1,7 @@
 <?php
 
 $main_name =  "Bazaznanij.com";
-$email2 =  "Bazaznanij.com@gmail.com";
+$email2 =  "Bazaznanijspb@gmail.com";
 
 $url_town_piter = 'http://'.$main_name.'/';
 $url_town_moscow = 'http://moscow.'.$main_name.'/';
