@@ -38,7 +38,7 @@ require("header.php");
 				$name_rab = $count % 11;
 				switch ($name_rab) {
 					case 0:
-						$name_rab_text = "выпускной работы от ".$site_name." ";
+						$name_rab_text = "выпускной работы";
 						break;
 					case 1:
 						$name_rab_text = "дипломной работы";
@@ -73,7 +73,7 @@ require("header.php");
 
 				}
 				?>
-				<h2>Смотреть пример <?php echo $name_rab_text . " № " . $count; ?></h2>
+				<h2>Пример <?php echo $name_rab_text . " № " . $count; ?></h2>
 				<?php
 				$f = fopen("texts/new_" . $count, "r");
 				$col_simv = 0;

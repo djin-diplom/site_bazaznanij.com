@@ -22,7 +22,12 @@ require("header.php");
 
 <!-- section of script -->
 
-
+<div style="background: url(/img/leather1.jpg) repeat-x left top; padding-top: 40px;">
+	<section class="main">
+		<?php
+		require("calc2.php");
+		?>
+		<div>
 
 <div class="v-root-terms">
 	<h1>Договор</h1>

@@ -17,7 +17,7 @@
     <a href="diplom_po_pedagogike.php">Диплом по педагогике</a><br>
     <a href="gumanitarnyi_diplom.php">Гуманитарный диплом</a><br>
     <a href="tehnicheskii_diplom.php">Технический диплом</a><br>
-    <a href="magisterskaya_dissertaciya.php">Магистерская диссертация</a><br>
+    <a href="magisterskaya_dissertaciya.php">Магистерская работа</a><br>
 </div>
 <span></span>
 <div>
