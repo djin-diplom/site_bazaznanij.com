@@ -319,7 +319,7 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 			<div style="font-size:14px">
 				Что пишут клиенты о нашей работе <br>
 				<a style="color:#5298ef;text-decoration:none" href="<?php echo $site_url; ?>consult.php" target="_blank" >Читать отзывы</a>
-			</div>t
+			</div>
 		</td>
 		<td>
 			<img src="<?php echo $path_img; ?>Gmail_files/999" alt="Вопросы" class="CToWUd">
