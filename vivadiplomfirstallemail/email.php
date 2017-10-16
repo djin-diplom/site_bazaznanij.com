@@ -288,15 +288,15 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 		<table style="width:100%;margin:10px 0">
 			<tbody><tr>
 				<td style="padding:11px 26px;border-right:1px solid #e2e5e6">
-					<img style="vertical-align:middle;margin-right:3px" src="<?php echo $path_img; ?>Gmail_files/PkTtQCOMGyWw2cuf1jdz53NZgZG950pUVJBTzy9o-af-2BfDojOshiRtJnpzdI0_sjdGwbVE1uGz_6GAKGjuU-tlvAUP_Li-mBiSRZOpA_59Zgiady5LmDk=s0-d-e1-ft" alt="Вопрос" class="CToWUd">
+					<img style="vertical-align:middle;margin-right:3px" src="<?php echo $path_img; ?>Gmail_files/555" alt="Вопрос" class="CToWUd">
 					<a style="font-size:13px;vertical-align:middle;color:#5298ef;text-decoration:none" href="mailto:<?php echo $email2; ?>" target="_blank" >Задать вопрос менеджеру</a>
 				</td>
 				<td style="padding:11px 26px;border-right:1px solid #e2e5e6">
-					<img style="vertical-align:middle;margin-right:3px" src="<?php echo $path_img; ?>Gmail_files/LUX9ieurbbsYAVLhjp4H6mnHCtm7WKgwJ9hdUL1iJ9PTppSI_ZvlSrjrcomtCnwq4eCpQPaNiITrGyQlHaIoKnSd71kNHVBp91I5tP7mxjLSkc4l2Wpk1rg=s0-d-e1-ft" alt="К заказу" class="CToWUd">
+					<img style="vertical-align:middle;margin-right:3px" src="<?php echo $path_img; ?>Gmail_files/444" alt="К заказу" class="CToWUd">
 					<a style="font-size:13px;vertical-align:middle;color:#5298ef;text-decoration:none" href="<?php echo $url_cabinet."?client_email=".$client_email."&"."client_pass=".$client_pass."&kabinet=1"; ?>" target="_blank" >Перейти к заказу</a>
 				</td>
 				<td style="padding:11px 26px">
-					<img style="vertical-align:middle;margin-right:3px" src="<?php echo $path_img; ?>Gmail_files/8NiiEuMBP7Rx5GzeBsw3RiapvV5K2hfjcX5ONK6G2i4NC87p-SSVtzG57G6MabsSHaHC2PkXHKvqi3dfRyzv-EIjb9NjY8HhvZzKOw9d-PYF-iOS3q_hw0gNmw=s0-d-e1-ft" alt="Заказать еще" class="CToWUd">
+					<img style="vertical-align:middle;margin-right:3px" src="<?php echo $path_img; ?>Gmail_files/111" alt="Заказать еще" class="CToWUd">
 					<a style="font-size:13px;vertical-align:middle;color:#5298ef;text-decoration:none" href="<?php echo $site_url; ?>order.php" target="_blank" >Заказать еще</a>
 				</td>
 			</tr>
@@ -347,7 +347,7 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 	</tr>
 	<tr>
 		<td style="text-align:center;padding-bottom:35px;background-color:#f6f7f8">
-			<img src="<?php echo $path_img; ?>Gmail_files/ULNFqbUX-8Vg9TYIwk1Dl_JE5SrK2lEd8158cVawWFbTE5Gah-2-ALCthBZdsksZKzzbzUdMr17uPPNbJNQ_WrBygks9UdFOiOJijZB8sFmKkrvllppYjWEJ=s0-d-e1-ft" alt="Прогрес" class="CToWUd">
+			<img src="<?php echo $path_img; ?>Gmail_files/777" alt="Прогрес" class="CToWUd">
 		</td>
 	</tr>
 
@@ -360,7 +360,7 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 	<tbody><tr style="height:30px"></tr>
 	<tr>
 		<td>
-			<img src="<?php echo $path_img; ?>Gmail_files/CYIiVk7CXe24UJzrROhD34HAl6BXd_NiN-ehmwV12pJk8avE0CTZOaxy9D5gpjClup-qaBaaS-dnAuq3g9JfyZqLHKpQ1uOCR86Dorr5AdEuLjXh10--E2oSFg=s0-d-e1-ft" alt="Профиль" class="CToWUd">
+			<img src="<?php echo $path_img; ?>Gmail_files/222" alt="Профиль" class="CToWUd">
 			<div style="margin:20px 0 10px 0">
 				<b>Ваш профиль</b>
 			</div>
@@ -372,7 +372,7 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 			</a>
 		</td>
 		<td>
-			<img src="<?php echo $path_img; ?>Gmail_files/E2HABdFgd5ExXycvCfQcQ7j2S0-HWzbZbhzK4M4DVhL9oSavvs4UYu2sFJ3haxPYn7p06TC1NQqKUHpOB0rpdqOPFKZTcwPCdkD3cYwGdpZSVUGm3djC037hlrE=s0-d-e1-ft" alt="Напоминание" class="CToWUd">
+			<img src="<?php echo $path_img; ?>Gmail_files/333" alt="Напоминание" class="CToWUd">
 			<div style="margin:20px 0 10px 0">
 				<b>Напоминание</b>
 			</div>
@@ -384,7 +384,7 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 			</a>
 		</td>
 		<td>
-			<img src="<?php echo $path_img; ?>Gmail_files/Sfkt1UXx2q0z2v06HQJoEJk-Mw8HgpwEstVT0mLOXRzziuvX-s4R05LsESAm0BzG4SvXPcsHUO06XhlLTMRTANzKiBEjRBEyiIW_i5jFW3Cyr-POtzxsAc7vhH8Cujw=s0-d-e1-ft" alt="Инструкция" class="CToWUd">
+			<img src="<?php echo $path_img; ?>Gmail_files/666" alt="Инструкция" class="CToWUd">
 			<div style="margin:20px 0 10px 0">
 				<b>Инструкция</b>
 			</div>
