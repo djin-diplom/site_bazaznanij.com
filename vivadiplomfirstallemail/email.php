@@ -312,17 +312,17 @@ $path_img = $site_url."vivadiplomfirstallemail/";
 	<tbody><tr height="40px;"></tr>
 	<tr>
 		<td>
-			<img src="<?php echo $path_img; ?>Gmail_files/k9Q6w4Ggy9MyBSqK_km7z7WJfQISknsSvoyCbwk5xsuoWtWwzGDE67Nt0VakI5yRmCzEYQncEge8RyrRxlP0CZatfMAfEzw7j4JjASO3h2BJvKE0JxqcKEzlXxejAFY-zOZVMtQvHfI=s0-d-e1-ft" alt="Отзывы" class="CToWUd">
+			<img src="<?php echo $path_img; ?>Gmail_files/888" alt="Отзывы" class="CToWUd">
 			<div>
 				<b>Отзывы</b>
 			</div>
 			<div style="font-size:14px">
 				Что пишут клиенты о нашей работе <br>
 				<a style="color:#5298ef;text-decoration:none" href="<?php echo $site_url; ?>consult.php" target="_blank" >Читать отзывы</a>
-			</div>
+			</div>t
 		</td>
 		<td>
-			<img src="<?php echo $path_img; ?>Gmail_files/CZVOm0l4BRHNpZDthMR6KzTqqFjUmauqBAGmxkZ69IRA9_w_R9K5ocAzYTWb-ilRAEs18-OFQbdiPxhsXyr_mdHWgePXbiAfJHVHl8oms2VDuT72CAZvU8AQtKhKVTV7oPTw-mafl8JV=s0-d-e1-ft" alt="Вопросы" class="CToWUd">
+			<img src="<?php echo $path_img; ?>Gmail_files/999" alt="Вопросы" class="CToWUd">
 			<div>
 				<b>Есть вопросы?</b>
 			</div>
