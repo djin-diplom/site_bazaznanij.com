@@ -83,7 +83,7 @@ if(isset($_POST['submit'])) {
 		$email_stud= $_POST['email_stud'];
 	}
 	if(trim($_POST['name']) == '') {
-		$hasError = true;
+		$name= $_POST['email_stud'];
 	} else {
 		$name= $_POST['name'];
 	}

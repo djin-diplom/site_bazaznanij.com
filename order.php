@@ -52,17 +52,7 @@ require("header.php");
     <tbody>
 
 
-    <tr>
-        <td class="field">
-            <span style="color: skyblue;">Ваше имя</span>
-            <span style="color: red;">*</span>
-        </td>
-        <td>
-            <input style="width: 50%;" type="text" name="name" id="id_name">
-
-
-        </td>
-    </tr>
+    
 
 
 
@@ -208,7 +198,7 @@ require("header.php");
           </td>
         </tr>
 
-    
+
 
 
 
