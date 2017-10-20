@@ -55,7 +55,7 @@ $skidka_vibor_let_case = 15+ rand(1, 4)*5;
 
 switch ($vibor_let_case) {
     case 1:
-        $vibor_let = 'Началась новая компания скидок до '.$skidka_vibor_let_case.'%. 
+        $vibor_let = 'Началась новая кампания скидок до '.$skidka_vibor_let_case.'%. 
         ';
         break;
     case 2:
