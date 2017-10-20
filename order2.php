@@ -37,9 +37,9 @@ if(isset($_POST['submit'])) {
 
 
 	//Проверка суммы
-	if(trim($_POST['count_1']) != $_POST['count_2']) {
-		$hasError = true;
-	}
+	//if(trim($_POST['count_1']) != $_POST['count_2']) {
+	//	$hasError = true;
+	//}
 	//Проверка стоимости от Заказчика
 	if(trim($_POST['kli_stoimost']) == '') {
 		$hasError = true;
