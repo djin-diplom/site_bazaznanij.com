@@ -118,8 +118,8 @@ require("header.php");
     </tr>
     <tr>
         <td class="field">&nbsp;</td>
-        <td><span style="color: red;">*</span>обязательные поля</td>
-        <td>Далее заполнять по желанию (рекомендуем):</td>
+        <td><span style="color: red;">*</span>обязательные поля<br>
+        Далее заполнять по желанию (рекомендуем):</td>
     </tr>
         <tr>
             <td class="field">
