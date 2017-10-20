@@ -123,7 +123,7 @@ require("header.php");
     </tr>
     <tr>
         <td class="field">
-            Ваше имя
+            <span style="color: brown;">Ваше имя</span>
         </td>
         <td>
             <input style="width: 50%;" type="text" name="name" id="id_name">
@@ -133,7 +133,7 @@ require("header.php");
     </tr>
         <tr>
             <td class="field">
-                Сколько Вы готовы заплатить?<br>
+                <span style="color: brown;">Сколько Вы готовы заплатить?</span><br>
                 (<span style="color: green;">Мы учтем Ваши возможности</span>)
             </td>
             <td>
@@ -144,7 +144,7 @@ require("header.php");
 
         <tr>
             <td class="field">
-                С предоплатой или без?
+                <span style="color: brown;">С предоплатой или без?</span>
             </td>
             <td>
                 <select name="predoplata" id="id_work_kind">
@@ -208,7 +208,7 @@ require("header.php");
         
         <tr>
           <td class="field">
-            Дополнительная информация
+            <span style="color: brown;">Дополнительная информация</span>
             
           </td>
           <td>
