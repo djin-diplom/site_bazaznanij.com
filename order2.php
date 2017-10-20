@@ -48,7 +48,7 @@ if(isset($_POST['submit'])) {
 	}
 	//Проверка предоплаты
 	if(trim($_POST['predoplata']) == '') {
-		$predoplata = 1;
+		$predoplata = 2;
 	} else {
 		$predoplata = trim($_POST['predoplata']);
 	}
