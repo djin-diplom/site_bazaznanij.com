@@ -108,14 +108,7 @@ require("header.php");
             
           </td>
         </tr>
-    <tr>
-        <td class="field">&nbsp;</td>
-        <td>
-            <button type="submit" name = "submit" class="blue" style="font-size: 18px;">
-                Отправить заказ
-            </button>
-        </td>
-    </tr>
+
         <tr>
             <td class="field">
                 Сколько Вы готовы заплатить?<br>
@@ -212,7 +205,14 @@ require("header.php");
       <td><span style="color: red;">*</span>обязательные поля</td>
     </tr>
 
-
+    <tr>
+      <td class="field">&nbsp;</td>
+      <td>
+        <button type="submit" name = "submit" class="blue" style="font-size: 18px;">
+          Отправить заказ
+        </button>
+      </td>
+    </tr>
     </tbody>
   </table>
 </form>
