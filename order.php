@@ -121,6 +121,16 @@ require("header.php");
         <td><span style="color: red;">*</span>обязательные поля<br>
         Далее заполнять не обязательно:</td>
     </tr>
+    <tr>
+        <td class="field">
+            Ваше имя
+        </td>
+        <td>
+            <input style="width: 50%;" type="text" name="name" id="id_name">
+
+
+        </td>
+    </tr>
         <tr>
             <td class="field">
                 Сколько Вы готовы заплатить?<br>
