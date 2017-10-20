@@ -52,13 +52,13 @@ require("header.php");
     <tbody>
 
 
-    
+
 
 
 
     <tr>
         <td class="field">
-            <span style="color: skyblue;">E-mail</span>
+            <span style="color: skyblue;">Ваша почта без ошибок!</span>
             <span style="color: red;">*</span>
         </td>
         <td>
