@@ -108,12 +108,18 @@ require("header.php");
             
           </td>
         </tr>
-
+    <tr>
+        <td class="field">&nbsp;</td>
+        <td>
+            <button type="submit" name = "submit" class="blue" style="font-size: 18px;">
+                Отправить заказ
+            </button>
+        </td>
+    </tr>
         <tr>
             <td class="field">
                 Сколько Вы готовы заплатить?<br>
                 (<span style="color: green;">Мы учтем Ваши возможности</span>)
-                <span style="color: red;">*</span>
             </td>
             <td>
                 <input id="id_predmet" style="width: 50%;" type="text" name="kli_stoimost" maxlength="100">
@@ -124,7 +130,6 @@ require("header.php");
         <tr>
             <td class="field">
                 С предоплатой или без?
-                <span style="color: red;">*</span>
             </td>
             <td>
                 <select name="predoplata" id="id_work_kind">
@@ -207,14 +212,7 @@ require("header.php");
       <td><span style="color: red;">*</span>обязательные поля</td>
     </tr>
 
-    <tr>
-      <td class="field">&nbsp;</td>
-      <td>
-        <button type="submit" name = "submit" class="blue" style="font-size: 18px;">
-          Отправить заказ
-        </button>
-      </td>
-    </tr>
+
     </tbody>
   </table>
 </form>

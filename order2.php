@@ -42,13 +42,13 @@ if(isset($_POST['submit'])) {
 	//}
 	//Проверка стоимости от Заказчика
 	if(trim($_POST['kli_stoimost']) == '') {
-		$hasError = true;
+		$kli_stoimost = 0;
 	} else {
 		$kli_stoimost = trim($_POST['kli_stoimost']);
 	}
 	//Проверка предоплаты
 	if(trim($_POST['predoplata']) == '') {
-		$hasError = true;
+		$predoplata = 1;
 	} else {
 		$predoplata = trim($_POST['predoplata']);
 	}
