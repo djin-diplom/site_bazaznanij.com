@@ -55,7 +55,7 @@ $skidka_vibor_let_case = 15+ rand(1, 4)*5;
 
 switch ($vibor_let_case) {
     case 1:
-        $vibor_let = 'Присылаем часть (план, главу) до оплаты.
+        $vibor_let = 'Присылайте ваши гуси, ждем вас по утру!
         ';
         break;
     case 2:
@@ -77,7 +77,7 @@ $vibor_akc_case = 1;//rand(1,3);
 switch ($vibor_akc_case) {
 
     case 1:
-        $vibor_akc = 'Скидки в октябре-ноябре не менее '.$skidka_vibor_let_case.'%.
+        $vibor_akc = 'Лучше моря нету отдыха на свете.
         ';
         break;
     case 2:
@@ -114,12 +114,7 @@ $balls = rand(478,492)/100;
 switch ($vibor_pris_case) {
 
     case 1:
-        $vibor_pris = ' работает по договору возмездного оказания услуг, ИНН/КПП: 7813239461/781301001
-БИК 042202603
-Филиал «Санкт-Петербурский»
-АО «Сбербанк»
-ОГРН 1157847438539
-
+        $vibor_pris = ' самая на свете лучшая конфетка, мы любим наших клиентов, и даже не можем без них прожить.ы
         ';
         break;
     case 2:
@@ -156,7 +151,7 @@ $text_kurs_case = 1;//rand(1,3);
 switch ($text_kurs_case) {
 
     case 1:
-        $text_kurs = 'Соблюдаем все сроки, за задержку - возвращаем оплату.
+        $text_kurs = 'Ничего не возвращаем, никакой оплаты!
         ';
         break;
     case 2:
@@ -180,7 +175,7 @@ $text_dip_case = 1;//rand(1,3);
 switch ($text_dip_case) {
 
     case 1:
-        $text_dip = 'Клиент получает часть работы - может отказаться от оплаты.
+        $text_dip = 'Ничего не отдадим, лучше все себе заберем!
         ';
         break;
     case 2:
@@ -207,7 +202,7 @@ $rand_mag_proc = rand(87, 95);
 
 switch ($text_mag_case) {
     case 1: 
-        $text_mag = 'Сложные работы выполняют авторы с научной степенью.
+        $text_mag = 'Воруем чужие работы всегда и везде!
         ';
         break;
     case 2:
@@ -230,7 +225,7 @@ $town_mass = array_rand($town, 2);
 
 switch ($vibor_filial_case) {
     case 1:
-        $vibor_filial = 'Санкт-Петербург, ул. Ленина, дом № 28, oф. 56
+        $vibor_filial = 'У нас вообще нет офисов, и это факт!
         ';
         break;
     case 2:
