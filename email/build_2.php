@@ -55,7 +55,7 @@ $skidka_vibor_let_case = 15+ rand(1, 4)*5;
 
 switch ($vibor_let_case) {
     case 1:
-        $vibor_let = 'Присылайте ваши гуси, ждем вас по утру!
+        $vibor_let = 'Началась новая компания скидок до '.$skidka_vibor_let_case.'%. 
         ';
         break;
     case 2:
@@ -77,7 +77,7 @@ $vibor_akc_case = 1;//rand(1,3);
 switch ($vibor_akc_case) {
 
     case 1:
-        $vibor_akc = 'Лучше моря нету отдыха на свете.
+        $vibor_akc = 'Тексты автора для ознакомления даром.
         ';
         break;
     case 2:
@@ -114,7 +114,8 @@ $balls = rand(478,492)/100;
 switch ($vibor_pris_case) {
 
     case 1:
-        $vibor_pris = ' самая на свете лучшая конфетка, мы любим наших клиентов, и даже не можем без них прожить.ы
+        $vibor_pris = ' не обещает чудес. Учиться лучше самостоятельно. Но мы обещаем качественное выполнение вашего заказа 
+        на основании официальных договоренностей по законодательству России. Мы обеспечим качество работы, избежим плагиата.    
         ';
         break;
     case 2:
@@ -151,7 +152,7 @@ $text_kurs_case = 1;//rand(1,3);
 switch ($text_kurs_case) {
 
     case 1:
-        $text_kurs = 'Ничего не возвращаем, никакой оплаты!
+        $text_kurs = 'Напишем план и введение до перевода денежных средств.
         ';
         break;
     case 2:
@@ -175,7 +176,7 @@ $text_dip_case = 1;//rand(1,3);
 switch ($text_dip_case) {
 
     case 1:
-        $text_dip = 'Ничего не отдадим, лучше все себе заберем!
+        $text_dip = 'Обозначим сроки сдачи глав и будем их придерживаться.
         ';
         break;
     case 2:
@@ -202,7 +203,7 @@ $rand_mag_proc = rand(87, 95);
 
 switch ($text_mag_case) {
     case 1: 
-        $text_mag = 'Воруем чужие работы всегда и везде!
+        $text_mag = 'Внесем исправления и изменения в текст без доплат.
         ';
         break;
     case 2:
@@ -225,7 +226,7 @@ $town_mass = array_rand($town, 2);
 
 switch ($vibor_filial_case) {
     case 1:
-        $vibor_filial = 'У нас вообще нет офисов, и это факт!
+        $vibor_filial = 'Официально оказываем услуги в России и ЕАЭС.
         ';
         break;
     case 2:
