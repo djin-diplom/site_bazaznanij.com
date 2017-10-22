@@ -77,7 +77,7 @@ $vibor_akc_case = 1;//rand(1,3);
 switch ($vibor_akc_case) {
 
     case 1:
-        $vibor_akc = 'Работаем с заказчиком до внесения денег.
+        $vibor_akc = 'Начинаем работу ещё до оплаты заказа.
         ';
         break;
     case 2:
