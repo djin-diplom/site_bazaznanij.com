@@ -27,11 +27,11 @@ $site_otzv_url_2 = "http://otzivi.16mb.com/raiting/74/bazaznanij/";
 
 
     $site_name = "Bazaznanij.com";
-    $site_name_2 = "Bazaznanij.com";
-    $site_name_3 = "Bazaznanij.com";
+    $site_name_2 = "Bazaznanij";
+    $site_name_3 = "Bazaznanij com";
     $site_name_4 = "Bazaznanij.com";
-    $site_name_5 = "Bazaznanij.com";
-    $site_name_6 = "Bazaznanij.com";
+    $site_name_5 = "Bazaznanij";
+    $site_name_6 = "Bazaznanij com";
     $password = '111qwaszx';
     $site_url = "http://".$main_name."/";
     $email = "zakaz@".$main_name;
