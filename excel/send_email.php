@@ -190,13 +190,13 @@ if ( (int)$i >= (int)$count) {
     switch ($sub_1) {
 
         case 1:
-            $sub_1_text = ' всего за ';
+            $sub_1_text = ' точно за ';
             break;
         case 2:
-            $sub_1_text = ' у нас стоит ';
+            $sub_1_text = ' ровно по ';
             break;
         case 3:
-            $sub_1_text = ' для вас по ';
+            $sub_1_text = ' по акции за ';
             break;
         case 4:
             $sub_1_text = ' с ценой ';
