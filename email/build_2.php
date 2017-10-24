@@ -755,12 +755,11 @@ $color_rand = rand(0, 9);
 
 $body_2 = '<!DOCTYPE html>
 
-<html>
-
-<head>
+<html><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
   <style  type="text/css" > 
+  
     body {
       margin: 0;     
       
@@ -769,9 +768,13 @@ $body_2 = '<!DOCTYPE html>
            
       -webkit-text-size-adjust: 99%;
     }
+    
+    
     table {
       border-spacing: 0;
     }
+    
+    
     table td {
       border-collapse: collapse;
     }
@@ -781,6 +784,8 @@ img {
     }
     table {  
       mso-table-lspace: 1pt;   
+      
+      
       mso-table-rspace: 1pt;
     } 
   </style>
