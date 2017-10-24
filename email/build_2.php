@@ -786,20 +786,13 @@ img {
   </style>
  
 </head>
-
 <body style="margin:1; padding:1;" bgcolor="#F0F1F'.$color_rand.'" leftmargin="1" topmargin="1" marginwidth="1" marginheight="1">
 
-<table border="0" width="100%" height="100%" cellpadding="0" cellspacing="0" bgcolor="#F'.$color_rand.'F1F0">
-
-  <tr>
+<table border="0" width="100%" height="100%" cellpadding="0" cellspacing="0" bgcolor="#F'.$color_rand.'F1F0"><tr>
   
-    <td align="center" valign="top" bgcolor="#F0F'.$color_rand.'F0" style="background-color: #F0F1F'.$color_rand.';">
-
-      <br>
+    <td align="center" valign="top" bgcolor="#F0F'.$color_rand.'F0" style="background-color: #F0F1F'.$color_rand.';"><br>
  
-      <table border="0" width="'.$rand_nom_text_1.'"  cellpadding="0" cellspacing="0"  class="cont'.$style_1.'ain22" style="width: '.$rand_nom_text_1.'px; max-width: 599px">
-      
-        <tr>
+      <table border="0" width="'.$rand_nom_text_1.'"  cellpadding="0" cellspacing="0"  class="cont'.$style_1.'ain22" style="width: '.$rand_nom_text_1.'px; max-width: 599px"><tr>
         
           <td class="cont'.$style_1.'ain22-padding header" align="left" style="font-family: '.$rand_nom_text_9.'; 
           font-size: 25px; font-weight: bold; padding-bottom: 13px; 
@@ -811,18 +804,14 @@ img {
                  <br><span style="color: '.$rand_color_green.';">'.$vibor_akc.'</span><br>
             
 
-          </td></tr>
-        
-        <tr>
+          </td></tr><tr>
           <td class="content"  align="left" style=" padding-top: '.$rand_nom_text_12.'; padding-bottom: '.$rand_nom_text_12.'; 
           background-color:  #ffffff">
 
             <table width="'.$rand_nom_text_1.'" border="0" cellpadding="0" cellspacing="0" class="force2_row2'.$style_1.'" style="width: '.$rand_nom_text_1.'px;">
             
               <tr>
-                <td class="con3tent'.$style_1.'w43rapper" style="padding-left: '.$rand_nom_text_10.'; padding-right: '.$rand_nom_text_10.'">
-                
-                  <br>
+                <td class="con3tent'.$style_1.'w43rapper" style="padding-left: '.$rand_nom_text_10.'; padding-right: '.$rand_nom_text_10.'"><br>
                   
                   
                   <div class="title" style="font-family:'.$rand_nom_text_9.'; font-size: 17px; font-weight: '.$rand_nom_text_1.'; 
@@ -832,24 +821,18 @@ img {
                   
                   <a href="'.$site_url.'order.php" >'.$rand_nom_text_4.'</a>
                   
-                  </div>
-                  
-                </td>
+                  </div></td>
               </tr><tr>
               
                 <td class="coo'.$style_1.'332ls-wrapper" style="padding-left: '.$rand_nom_text_12.'; padding-right: '.$rand_nom_text_12.'">
 
 
-                  <table width="'.$rand_nom_text_2.'" align="left" class="force2_row2'.$style_1.'" style="width: '.$rand_nom_text_2.'px;">
-                  
-                    <tr>
+                  <table width="'.$rand_nom_text_2.'" align="left" class="force2_row2'.$style_1.'" style="width: '.$rand_nom_text_2.'px;"><tr>
                     
                       <td class="coo'.$style_1.'332l"  style="padding-left: '.$rand_nom_text_13.'; padding-right: '.$rand_nom_text_13.'; padding-top: '.$rand_nom_text_14.'; 
                       padding-bottom: '.$rand_nom_text_13.'">
                       
-                        <table class="im3g'.$style_1.'wrap25per">
-                        
-                          <tr>
+                        <table class="im3g'.$style_1.'wrap25per"><tr>
                           
                             <td style="padding-bottom:'.$rand_nom_text_14.'"><a>
                             
@@ -859,9 +842,7 @@ img {
                             </td></tr>
                           
                         </table>
-                        <table >
-                        
-                          <tr>
+                        <table > <tr>
                           
                             <td class="sub'.$style_1.'3tit4tle" style="font-family: '.$rand_nom_text_9.'; font-size: 13px; 
                             line-height: '.$rand_nom_text_10.'; font-weight: '.$rand_nom_text_1.'; color: #24'.$color_rand.'9A1; padding-bottom:7px">'.$rand_nom_text_3_1.'
@@ -877,12 +858,9 @@ img {
                         </div>
                         
                         <br></td>
-                    </tr>
-                    
-                  </table>
+                    </tr></table>
 
-                  <table width="'.$rand_nom_text_2.'" align="left" class="force2_row2'.$style_1.'" style="width: '.$rand_nom_text_2.'px;">
-                    <tr>
+                  <table width="'.$rand_nom_text_2.'" align="left" class="force2_row2'.$style_1.'" style="width: '.$rand_nom_text_2.'px;"><tr>
                     
                       <td class="coo'.$style_1.'332l"  style="padding-left: '.$rand_nom_text_13.'; padding-right: '.$rand_nom_text_13.' ;padding-top:'.$rand_nom_text_14.'; padding-bottom:'.$rand_nom_text_13.'">
                       
@@ -890,9 +868,7 @@ img {
                           <tr>
                             <td style="padding-bottom: '.$rand_nom_text_14.'"><img alt="'.$img_text_2.'" src="'.$kart_2.'" border="0" width="'.$rand_nom_text_11.'" height="'.$rand_nom_text_15.'" 
                             style="max-width: 99%; " ></td>
-                          </tr>
-                          
-                        </table>
+                          </tr></table>
                         
                         <table >
                         
@@ -909,9 +885,7 @@ img {
                           
                                                  </div>                                               
                         <br></td>
-                    </tr>
-                    
-                  </table>
+                    </tr> </table>
                
                   <table width="'.$rand_nom_text_2.'" align="left" class="force2_row2'.$style_1.'" style="width: '.$rand_nom_text_2.'px;">
                   
@@ -920,8 +894,7 @@ img {
                       <td class="coo'.$style_1.'332l"  style="padding-left: '.$rand_nom_text_13.'; padding-right: '.$rand_nom_text_13.'; padding-top: '.$rand_nom_text_14.'; 
                       padding-bottom: '.$rand_nom_text_13.'">
                       
-                        <table class="im3g'.$style_1.'wrap25per">
-                          <tr>
+                        <table class="im3g'.$style_1.'wrap25per"><tr>
                         
                             <td style="padding-bottom:'.$rand_nom_text_14.'"><img alt="'.$img_text_3.'" src="'.$kart_3.'" border="0"  width="'.$rand_nom_text_11.'" height="'.$rand_nom_text_15.'" 
                             style="max-width: 99%; ">
@@ -958,9 +931,7 @@ img {
                    '.$vibor_filial.'
                 </td>
                 
-              </tr>
-              
-            </table>
+              </tr></table>
 
           </td></tr>
         
@@ -968,18 +939,14 @@ img {
         
           <td class="cont'.$style_1.'ain22-padding footer-text" align="left" style="font-family: '.$rand_nom_text_9.'; 
           font-size: '.$rand_nom_text_12.'; line-height: '.$rand_nom_text_14.'; color:#aaaaa'.$color_rand.'; padding-left: '.$rand_nom_text_10.'; padding-right: '.$rand_nom_text_10.'">
-            <br>
-            
-            <br>
+            <br><br>
 
             <strong><a href="'.$site_url.'" style="color:#aaaaa'.$color_rand.'">'.$site_name.'</a><br></strong><br>
 
             '.$name.'! '.$vibor_niz.'
             
             <span class="ios23'.$style_1.'foot434">
-              '.$email3.'<br>
-
-            </span>
+              '.$email3.'<br></span>
              
             <span class="ios23'.$style_1.'foot434">
               '.$name.'! <a href="'.$site_url.'otpiska.php" >'.$rand_nom_text_6.'</a>.<br>
@@ -988,9 +955,7 @@ img {
             © 2017 <a href="'.$site_url.'" style="color: #aaaaa'.$color_rand.'">'.$site_name.'</a><br>
             
             
-            <br>
-            
-            <br></td>
+            <br><br></td>
           
         </tr>
       </table>
