@@ -1,8 +1,8 @@
 <?php
 require("../requisites.php");
 $name = "Сергей";
-$vid_rab = "Дипломная работа";
-$pay = "2760";
+$vid_rab = "Диплом";
+$pay = "3500";
 $predmet = '';//'Алгебра и Геометрия';
 
 //$name = "Mosdiplpom.ru";
