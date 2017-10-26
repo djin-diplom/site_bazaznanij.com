@@ -51,7 +51,7 @@ $site_otzv_url_2 = "http://otzivi.16mb.com/raiting/74/bazaznanij/";
     $adres = "г. Санкт-Петербург, ул. Ленина,<br> дом № 28, oф. 56";
     $url_adres_yandex = "https://yandex.ru/maps/-/CBUcmEFopA";
     $url_adres_yandex_frame = "<iframe src=\"https://yandex.ru/map-widget/v1/-/CBUcmEFopA\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
-    $url_oplata = "https://money.yandex.ru/to/410015073686834";
+    $url_oplata = "https://money.yandex.ru/to/410015147640511";
 
 $main_name_temp = $main_name;
 
