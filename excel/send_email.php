@@ -261,7 +261,7 @@ if ( (int)$i >= (int)$count) {
 
         if ($predmet != '') $predmet = $predmet.'.';
 
-        $dobroe_text = rand_podstav_smv('Доброе утро, ');
+        $dobroe_text = rand_podstav_smv('Добрый вечер, ');
 
         $subject =  $dobroe_text. $name . ". " . $vid_rab . $sub_1_text . $pay . ". ".$predmet. $sub_2_text;
 
