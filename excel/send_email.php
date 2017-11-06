@@ -263,7 +263,8 @@ if ( (int)$i >= (int)$count) {
 
         $dobroe_text = rand_podstav_smv('С добрым утром, ');
 
-        $subject =  $dobroe_text. $name . ". " . $vid_rab . $sub_1_text . $pay . ". ".$predmet. $sub_2_text;
+        //$subject =  $dobroe_text. $name . ". " . $vid_rab . $sub_1_text . $pay . ". ".$predmet. $sub_2_text;
+        $subject =    $vid_rab . $sub_1_text . $pay . ". ".$predmet. $sub_2_text. ". ". $dobroe_text. $name;
 
         $sender = new sender($email, $site_name, $subject, '', $password);
 
