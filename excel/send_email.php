@@ -226,10 +226,10 @@ if ( (int)$i >= (int)$count) {
 
     switch ($sub_2) {
         case 1:
-            $sub_2_text = ' После праздников мы убрали предоплату!';//' Нет аванса';
+            $sub_2_text = ' Мы убрали предоплату после праздников!';//' Нет аванса';
             break;
         case 2:
-            $sub_2_text = ' Праздники продолжаются - мы удалили предоплаты!';//' Без аванса';
+            $sub_2_text = ' Мы удалили предоплаты - праздники продолжаются!';//' Без аванса';
             break;
         case 3:
             $sub_2_text = ' Можно заказать без предварительной оплаты';//' Без предоплаты';
@@ -264,7 +264,7 @@ if ( (int)$i >= (int)$count) {
         $dobroe_text = rand_podstav_smv('С добрым утром, ');
 
         //$subject =  $dobroe_text. $name . ". " . $vid_rab . $sub_1_text . $pay . ". ".$predmet. $sub_2_text;
-        $subject =    $vid_rab . $sub_1_text . $pay . ". ".$predmet. $sub_2_text. ". ". $dobroe_text. $name;
+        $subject =    $name.". ".$vid_rab . $sub_1_text . $pay . ". ".$predmet. $sub_2_text;
 
         $sender = new sender($email, $site_name, $subject, '', $password);
 
