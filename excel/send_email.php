@@ -5,7 +5,7 @@
 <body>
 
 <?php
-require("../requisites.php");
+require("../requisites_2.php");
 set_time_limit(0);
 ob_implicit_flush();
 error_reporting(E_ALL);
@@ -190,10 +190,10 @@ if ( (int)$i >= (int)$count) {
     switch ($sub_1) {
 
         case 1:
-            $sub_1_text = ' в праздник за ';
+            $sub_1_text = ' по себестоимости ';
             break;
         case 2:
-            $sub_1_text = ' с 4-го ноября за ';
+            $sub_1_text = ' без накруток за ';
             break;
         case 3:
             $sub_1_text = ' в точности за ';
@@ -226,10 +226,10 @@ if ( (int)$i >= (int)$count) {
 
     switch ($sub_2) {
         case 1:
-            $sub_2_text = ' В праздничный месяц без аванса';//' Нет аванса';
+            $sub_2_text = ' После праздников мы убрали предоплату!';//' Нет аванса';
             break;
         case 2:
-            $sub_2_text = ' Беспредоплатный праздничный месяц';//' Без аванса';
+            $sub_2_text = ' Праздники продолжаются - мы удалили предоплаты!';//' Без аванса';
             break;
         case 3:
             $sub_2_text = ' Можно заказать без предварительной оплаты';//' Без предоплаты';
@@ -261,7 +261,7 @@ if ( (int)$i >= (int)$count) {
 
         if ($predmet != '') $predmet = $predmet.'.';
 
-        $dobroe_text = rand_podstav_smv('Добрый день, ');
+        $dobroe_text = rand_podstav_smv('С добрым утром, ');
 
         $subject =  $dobroe_text. $name . ". " . $vid_rab . $sub_1_text . $pay . ". ".$predmet. $sub_2_text;
 
