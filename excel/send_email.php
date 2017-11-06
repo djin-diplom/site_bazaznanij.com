@@ -5,7 +5,7 @@
 <body>
 
 <?php
-require("../requisites_2.php");
+require("../requisites.php");
 set_time_limit(0);
 ob_implicit_flush();
 error_reporting(E_ALL);
@@ -190,10 +190,10 @@ if ( (int)$i >= (int)$count) {
     switch ($sub_1) {
 
         case 1:
-            $sub_1_text = ' в честь праздника за ';
+            $sub_1_text = ' в праздник за ';
             break;
         case 2:
-            $sub_1_text = ' в наш праздник за ';
+            $sub_1_text = ' с 4-го ноября за ';
             break;
         case 3:
             $sub_1_text = ' в точности за ';
@@ -226,10 +226,10 @@ if ( (int)$i >= (int)$count) {
 
     switch ($sub_2) {
         case 1:
-            $sub_2_text = ' Без предоплат в ноябре';//' Нет аванса';
+            $sub_2_text = ' В праздничный месяц без аванса';//' Нет аванса';
             break;
         case 2:
-            $sub_2_text = ' Беспредоплатный сезон';//' Без аванса';
+            $sub_2_text = ' Беспредоплатный праздничный месяц';//' Без аванса';
             break;
         case 3:
             $sub_2_text = ' Можно заказать без предварительной оплаты';//' Без предоплаты';
