@@ -185,15 +185,15 @@ if ( (int)$i >= (int)$count) {
 
         $body = $body_2;
 
-        $sub_1 = rand(1,2);
+        $sub_1 = 1;//rand(1,2);
 
     switch ($sub_1) {
 
         case 1:
-            $sub_1_text = ' со скидкой за ';
+            $sub_1_text = ' без плагиата за ';
             break;
         case 2:
-            $sub_1_text = ' по акции за ';
+            $sub_1_text = ' без всякого плагиата за ';
             break;
         case 3:
             $sub_1_text = ' в точности за ';
@@ -222,11 +222,11 @@ if ( (int)$i >= (int)$count) {
     }
         $sub_1_text = rand_podstav_smv($sub_1_text);
 
-        $sub_2 = rand(1,2);
+        $sub_2 = 1;//rand(1,2);
 
     switch ($sub_2) {
         case 1:
-            $sub_2_text = ' Скоростное выполнение без накрутки';//' Нет аванса';
+            $sub_2_text = ' Цены ниже рыночных';//' Нет аванса';
             break;
         case 2:
             $sub_2_text = ' Диплом за неделю без завышения стоимости';//' Без аванса';
