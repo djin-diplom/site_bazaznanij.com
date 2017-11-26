@@ -185,15 +185,15 @@ if ( (int)$i >= (int)$count) {
 
         $body = $body_2;
 
-        $sub_1 = 1;//rand(1,2);
+        $sub_1 = rand(1,2);
 
     switch ($sub_1) {
 
         case 1:
-            $sub_1_text = ' со скидкой за ';
+            $sub_1_text = ' по горячей цене ';
             break;
         case 2:
-            $sub_1_text = ' со скидками за ';
+            $sub_1_text = ' в новый сезон за ';
             break;
         case 3:
             $sub_1_text = ' в точности за ';
@@ -222,14 +222,14 @@ if ( (int)$i >= (int)$count) {
     }
         $sub_1_text = rand_podstav_smv($sub_1_text);
 
-        $sub_2 = 1;//rand(1,2);
+        $sub_2 = rand(1,2);
 
     switch ($sub_2) {
         case 1:
-            $sub_2_text = ' Не завышаем стоимость';//' Нет аванса';
+            $sub_2_text = ' Закажи без первого взноса!';//' Нет аванса';
             break;
         case 2:
-            $sub_2_text = ' Экономим на менеджерах';//' Без аванса';
+            $sub_2_text = ' Заплати после выполнения!';//' Без аванса';
             break;
         case 3:
             $sub_2_text = ' Можно заказать без предварительной оплаты';//' Без предоплаты';
