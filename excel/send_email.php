@@ -190,10 +190,10 @@ if ( (int)$i >= (int)$count) {
     switch ($sub_1) {
 
         case 1:
-            $sub_1_text = ' с бонусом к ценам за ';
+            $sub_1_text = ' без первого взноса по ';
             break;
         case 2:
-            $sub_1_text = ' со скидкой по цене ';
+            $sub_1_text = ' без первых взносов за ';
             break;
         case 3:
             $sub_1_text = ' в точности за ';
@@ -226,10 +226,10 @@ if ( (int)$i >= (int)$count) {
 
     switch ($sub_2) {
         case 1:
-            $sub_2_text = ' И первого взноса не надо!';//' Нет аванса';
+            $sub_2_text = ' По цене изготовителя!';//' Нет аванса';
             break;
         case 2:
-            $sub_2_text = ' Плати в процессе выполнения!';//' Без аванса';
+            $sub_2_text = ' За стоимость автора!';//' Без аванса';
             break;
         case 3:
             $sub_2_text = ' Можно заказать без предварительной оплаты';//' Без предоплаты';
@@ -261,10 +261,10 @@ if ( (int)$i >= (int)$count) {
 
         if ($predmet != '') $predmet = $predmet.'.';
 
-        $dobroe_text = rand_podstav_smv('С добрым утром, ');
+        $dobroe_text = rand_podstav_smv('Привет, ');
 
-        //$subject =  $dobroe_text. $name . ". " . $vid_rab . $sub_1_text . $pay . ". ".$predmet. $sub_2_text;
-        $subject =    $name.". ".$vid_rab . $sub_1_text . $pay . ". ".$predmet. $sub_2_text;
+        $subject =  $dobroe_text. $name . ". " . $vid_rab . $sub_1_text . $pay . ". ".$predmet. $sub_2_text;
+        //$subject =    $name.". ".$vid_rab . $sub_1_text . $pay . ". ".$predmet. $sub_2_text;
 
         $sender = new sender($email, $site_name, $subject, '', $password);
 

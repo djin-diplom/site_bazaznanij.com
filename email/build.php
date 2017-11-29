@@ -1,6 +1,6 @@
 <?php
 require("../requisites_2.php");
-$name = "Елена";
+$name = "Виктория";
 $vid_rab = "Диплом";
 $pay = "3500";
 $predmet = '';//'Алгебра и Геометрия';
