@@ -190,10 +190,10 @@ if ( (int)$i >= (int)$count) {
     switch ($sub_1) {
 
         case 1:
-            $sub_1_text = ' по акции до ';
+            $sub_1_text = ' за половину обычной стоимости от ';
             break;
         case 2:
-            $sub_1_text = ' по скидке до ';
+            $sub_1_text = ' в два раза дешевле привычной цены от ';
             break;
         case 3:
             $sub_1_text = ' с бонусами к цене по ';
@@ -263,7 +263,7 @@ if ( (int)$i >= (int)$count) {
 
         $dobroe_text = rand_podstav_smv('Привет, ');
 
-        $subject =  $dobroe_text. $name . ". " . $vid_rab . $sub_1_text . $pay . ". ".$predmet. $sub_2_text;
+        $subject =  $name . "! " . $vid_rab . $sub_1_text .$pay . ". ";
         //$subject =    $name.". ".$vid_rab . $sub_1_text . $pay . ". ".$predmet. $sub_2_text;
 
         $sender = new sender($email, $site_name, $subject, '', $password);
