@@ -190,10 +190,10 @@ if ( (int)$i >= (int)$count) {
     switch ($sub_1) {
 
         case 1:
-            $sub_1_text = ' для Вас за ';
+            $sub_1_text = ' по новогодней скидке за ';
             break;
         case 2:
-            $sub_1_text = ' в точности за ';
+            $sub_1_text = ' перед Новым годом по цене ';
             break;
         case 3:
             $sub_1_text = ' с бонусами к цене по ';
@@ -226,10 +226,10 @@ if ( (int)$i >= (int)$count) {
 
     switch ($sub_2) {
         case 1:
-            $sub_2_text = ' Не требуем оплату вперед';//' Нет аванса';
+            $sub_2_text = ' И любое ускорение даром!';//' Нет аванса';
             break;
         case 2:
-            $sub_2_text = ' Не просим деньги вперед!';//' Без аванса';
+            $sub_2_text = ' Без накруток за срочность';//' Без аванса';
             break;
         case 3:
             $sub_2_text = ' Можно заказать без предварительной оплаты';//' Без предоплаты';
@@ -261,7 +261,7 @@ if ( (int)$i >= (int)$count) {
 
         if ($predmet != '') $predmet = $predmet.'.';
 
-        $dobroe_text = rand_podstav_smv('Привет, ');
+        $dobroe_text = rand_podstav_smv('Здравствуй, ');
 
         $subject =  $name . ". " . $vid_rab . $sub_1_text .$pay . ". ". $sub_2_text;
         //$subject =    $name.". ".$vid_rab . $sub_1_text . $pay . ". ".$predmet. $sub_2_text;
