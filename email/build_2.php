@@ -56,11 +56,11 @@ $name = rand_podstav_smv($name);
 $vibor_let_case = 1;//rand(1,3);
 
 $unik_vibor_let_case = 70 + rand(1, 3)*5;
-$skidka_vibor_let_case = 30 + rand(2, 4)*5;
+$skidka_vibor_let_case = 9 + rand(2, 4)*5;
 
 switch ($vibor_let_case) {
     case 1:
-        $vibor_let = 'Слайды и речь для диплома бесплатно!
+        $vibor_let = 'В случае полной оплаты новогодняя скидка.
         ';
         break;
     case 2:
@@ -82,7 +82,7 @@ $vibor_akc_case = 1;//rand(1,3);
 switch ($vibor_akc_case) {
 
     case 1:
-        $vibor_akc = 'Выпускные работы от преподавателей.
+        $vibor_akc = 'В подарок слайды и речь! 
         ';
         break;
     case 2:
@@ -119,7 +119,8 @@ $balls = rand(478,492)/100;
 switch ($vibor_pris_case) {
 
     case 1:
-        $vibor_pris = ' работает официально по всей России по договору. Для Новых Клиентов действуют скидки до '.$skidka_vibor_let_case.'%.
+        $vibor_pris = ' отличается своими конкурентными ценами и соблюдением сроков. Для всех пришедших впервые на наш сайтй бонусы 
+        от '.$skidka_vibor_let_case.'%.
         ';
         break;
     case 2:
@@ -156,7 +157,7 @@ $text_kurs_case = 1;//rand(1,3);
 switch ($text_kurs_case) {
 
     case 1:
-        $text_kurs = 'Старт работ без внесения средств.
+        $text_kurs = 'При ускорении написания работ мы всегда удерживаем цену от существенных накруток.
         ';
         break;
     case 2:
@@ -180,7 +181,7 @@ $text_dip_case = 1;//rand(1,3);
 switch ($text_dip_case) {
 
     case 1:
-        $text_dip = 'Дипломы выполняют доценты и кандидаты.
+        $text_dip = 'В цену заказа входят гарантии отсутствия плагиата, соблюдения методики и требований.
         ';
         break;
     case 2:
@@ -207,7 +208,7 @@ $rand_mag_proc = rand(87, 95);
 
 switch ($text_mag_case) {
     case 1: 
-        $text_mag = 'Двойная проверка качества и уникальности.
+        $text_mag = 'Каждая диссертация выполняется индивидуально российскими доцентами и профессорами.
         ';
         break;
     case 2:
@@ -230,7 +231,7 @@ $town_mass = array_rand($town, 2);
 
 switch ($vibor_filial_case) {
     case 1:
-        $vibor_filial = 'Филиалы в Москве и Санкт-Петербурге.
+        $vibor_filial = 'При задержке работы возвращаем оплату.
         ';
         break;
     case 2:
@@ -329,34 +330,34 @@ $rand_cg = rand(1,10);
 
 switch ($rand_cg) {
     case 1:
-        $rand_color_green = '#297117';
-        break;
-    case 2:
-        $rand_color_green = '#297127';
-        break;
-    case 3:
-        $rand_color_green = '#297217';
-        break;
-    case 4:
-        $rand_color_green = '#298117';
-        break;
-    case 5:
-        $rand_color_green = '#287117';
-        break;
-    case 6:
-        $rand_color_green = '#397117';
-        break;
-    case 7:
         $rand_color_green = '#297118';
         break;
+    case 2:
+        $rand_color_green = '#297128';
+        break;
+    case 3:
+        $rand_color_green = '#297218';
+        break;
+    case 4:
+        $rand_color_green = '#298118';
+        break;
+    case 5:
+        $rand_color_green = '#287118';
+        break;
+    case 6:
+        $rand_color_green = '#397118';
+        break;
+    case 7:
+        $rand_color_green = '#297119';
+        break;
     case 8:
-        $rand_color_green = '#297137';
+        $rand_color_green = '#297138';
         break;
     case 9:
-        $rand_color_green = '#297317';
+        $rand_color_green = '#297318';
         break;
     case 10:
-        $rand_color_green = '#197117';
+        $rand_color_green = '#197118';
         break;
 }
 
@@ -408,9 +409,9 @@ $rand_nom_3 = 1; //rand(1,8);
 switch ($rand_nom_3) {
 
     case 1:
-        $rand_nom_text_3_1 = 'Студенты';
-        $rand_nom_text_3_2 = 'Дипломники';
-        $rand_nom_text_3_3 = 'Магистранты';
+        $rand_nom_text_3_1 = 'Курсовые со скидкой';
+        $rand_nom_text_3_2 = 'Дипломные со скидкой';
+        $rand_nom_text_3_3 = 'Диссертации со скидкой';
         break;
     case 2:
         $rand_nom_text_3_1 = 'Курсовой';
@@ -461,7 +462,7 @@ $rand_nom_4 = 1; //rand(1,2);
 switch ($rand_nom_4) {
 
     case 1:
-        $rand_nom_text_4 = 'Узнай все нюансы выполнения по этой ссылке';
+        $rand_nom_text_4 = 'Начни выполнение своей работы до оплаты';
         break;
     case 2:
         $rand_nom_text_4 = 'Отправить темы';
@@ -485,7 +486,7 @@ $rand_nom_5 = 1; //rand(1,5);
 switch ($rand_nom_5) {
 
     case 1:
-        $rand_nom_text_5 = 'уточни цену работы здесь';
+        $rand_nom_text_5 = 'старт работы без предоплат по ссылке';
         break;
     case 2:
         $rand_nom_text_5 = 'закажите здесь';
@@ -508,7 +509,7 @@ $rand_nom_6 = 1; //rand(1,5);
 switch ($rand_nom_6) {
 
     case 1:
-        $rand_nom_text_6 = 'Заявление на удаление из базы рассылки';
+        $rand_nom_text_6 = 'Не принимать больше писем';
         break;
     case 2:
         $rand_nom_text_6 = 'Отписка';
@@ -551,10 +552,10 @@ $rand_nom_8 = rand(1,2);
 
 switch ($rand_nom_8) {
     case 1:
-        $rand_nom_text_8 = ' по новогодней цене за ';
+        $rand_nom_text_8 = ' с высокой уникальностью за ';
         break;
     case 2:
-        $rand_nom_text_8 = ' за новогоднюю стоимость ';
+        $rand_nom_text_8 = ' без любого плагиата за ';
         break;
     case 3:
         $rand_nom_text_8 = ' в точности за ';
@@ -733,7 +734,7 @@ $rand_nom_17 = 1;//rand(1,5);
 switch ($rand_nom_17) {
 
     case 1:
-        $rand_nom_text_17 = ' (исполнение в днях)';
+        $rand_nom_text_17 = ' (срок в сутках)';
         break;
     case 2:
         $rand_nom_text_17 = ' дн.';
@@ -755,30 +756,28 @@ $rand_nom_text_17 = rand_podstav_smv($rand_nom_text_17);
 $color_rand = rand(0, 9);
 
 $body_2 = '
-<!DOCTYPE html >
-<html>
+<!DOCTYPE html>
+<html >
  <head>
- <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style  type="text/css" >
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style  type="text/css">
   body{ 
   margin: 0;
       padding: 0;
-      -ms-text-size-adjust:99%;  
-      
+      -ms-text-size-adjust:99%;
       -webkit-text-size-adjust:99%;} 
-    table{ border-spacing: 0;} 
-    
-    
+    table{ border-spacing: 0;}
     table td  {border-collapse: collapse;}
     img{
       -ms-interpolation-mode: bicubic;}
     
     table {mso-table-lspace: 1pt;
-      mso-table-rspace: 1pt;}  </style></head >
+      mso-table-rspace: 1pt;}  </style></head>
 <body  style="margin:1; padding:1;" bgcolor="#F0F1F'.$color_rand.'" leftmargin="1" topmargin="1" marginwidth="1" marginheight="1">
 
 
 <table border="0" width="100%" height="100%" cellpadding="0" cellspacing="0" bgcolor="#F'.$color_rand.'F1F0" ><tr>
-    <td align="center" valign="top" bgcolor="#F0F'.$color_rand.'F0" style="background-color: #F0F1F'.$color_rand.';" ><br>
+    <td align="center" valign="top" bgcolor="#F0F'.$color_rand.'F0" style="background-color: #F0F1F'.$color_rand.';" >
+    <br>
       <table border="0" width="'.$rand_nom_text_1.'"  cellpadding="0" cellspacing="0"  class="cont'.$style_1.'ain22" style="width: '.$rand_nom_text_1.'px; max-width: 599px" ><tr>
       <td class="cont'.$style_1.'ain22-padding header" align="left" style="font-family: '.$rand_nom_text_9.'; 
           font-size: 25px; font-weight: bold; padding-bottom: 13px; 
@@ -788,7 +787,7 @@ $body_2 = '
                   
             '.$vibor_let.'
                  <br>
-                 <span style="color: '.$rand_color_green.';">'.$vibor_akc.'</span><br></td></tr><tr>
+                 <span style="color: '.$rand_color_green.';">'.$vibor_akc.'</span><br></td ></tr><tr>
           
           <td class="content"  align="left" style=" padding-top: '.$rand_nom_text_12.'; padding-bottom: '.$rand_nom_text_12.'; 
           background-color:  #ffffff">
@@ -806,18 +805,14 @@ $body_2 = '
                   '.$rand_nom_text_4.'</a></div></td></tr>
                   <tr>
                   <td  class="coo'.$style_1.'332ls-wrapper" style="padding-left: '.$rand_nom_text_12.'; padding-right: '.$rand_nom_text_12.'" >
-                  <table width="'.$rand_nom_text_2.'" align="left" class="force2_row2'.$style_1.'" style="width: '.$rand_nom_text_2.'px;">
-                  
-                  <tr>
+                  <table width="'.$rand_nom_text_2.'" align="left" class="force2_row2'.$style_1.'" style="width: '.$rand_nom_text_2.'px;"><tr>
                   
                   <td class="coo'.$style_1.'332l"  style="padding-left: '.$rand_nom_text_13.'; padding-right: '.$rand_nom_text_13.'; padding-top: '.$rand_nom_text_14.'; 
                       padding-bottom: '.$rand_nom_text_13.'">
                         <table class="im3g'.$style_1.'wrap25per"><tr><td style="padding-bottom:'.$rand_nom_text_14.'"><a >
                             <img  alt="'.$img_text_1.'" src="'.$kart_1.'" border="0"  width="'.$rand_nom_text_11.'" height="'.$rand_nom_text_15.'" style="max-width:99%;" >
-                            </a >
-                            </td></tr ></table >
-                            
-                            <table><tr >
+                            </a>
+                            </td></tr ></table><table><tr >
                             <td class="sub'.$style_1.'3tit4tle" style="font-family: '.$rand_nom_text_9.'; font-size: 13px; 
                             line-height: '.$rand_nom_text_10.'; font-weight: '.$rand_nom_text_1.'; color: #24'.$color_rand.'9A1; padding-bottom:7px">
                             '.$rand_nom_text_3_1.'</td></tr > </table >
@@ -838,8 +833,7 @@ $body_2 = '
                           
                             <img alt="'.$img_text_2.'" src="'.$kart_2.'" border="0" width="'.$rand_nom_text_11.'" height="'.$rand_nom_text_15.'" 
                             style="max-width: 99%; " >
-                            </td>
-                            </tr></table ><table >
+                            </td></tr></table ><table >
                             <tr >                  
                             <td class="sub'.$style_1.'3tit4tle" style="font-family: '.$rand_nom_text_9.'; font-size: 13px; 
                             line-height: '.$rand_nom_text_10.'; font-weight: '.$rand_nom_text_1.'; color: #2'.$color_rand.'69A1; padding-bottom: 7px" >'.$rand_nom_text_3_2.'
@@ -849,17 +843,14 @@ $body_2 = '
                         line-height: 21px; text-align: left; color:#333'.$color_rand.'32" >
                         '.$sut_dip.$rand_nom_text_17.'
                         <br>'.$name.'!<br >'.$text_dip.'
-                          </div><br></td> 
-                          
-                          </tr ></table>
+                          </div ><br></td></tr ></table>
                           <table width="'.$rand_nom_text_2.'" align="left" class="force2_row2'.$style_1.'" style="width: '.$rand_nom_text_2.'px;" ><tr >
                   
                       <td class="coo'.$style_1.'332l"  style="padding-left: '.$rand_nom_text_13.'; padding-right: '.$rand_nom_text_13.'; padding-top: '.$rand_nom_text_14.'; 
                       padding-bottom: '.$rand_nom_text_13.'" >
                         <table class="im3g'.$style_1.'wrap25per" ><tr><td style="padding-bottom:'.$rand_nom_text_14.'" >
                             <img alt="'.$img_text_3.'" src="'.$kart_3.'" border="0"  width="'.$rand_nom_text_11.'" height="'.$rand_nom_text_15.'" 
-                            style="max-width: 99%; ">
-                            </td></tr></table><table>
+                            style="max-width: 99%; "></td ></tr></table><table>
                             
                             <tr ><td  class="sub'.$style_1.'3tit4tle" style="font-family:'.$rand_nom_text_9.';font-size: 13px; 
                             line-height: '.$rand_nom_text_10.'; font-weight: '.$rand_nom_text_1.';color:#2'.$color_rand.'69A1; padding-bottom: 7px">'.$rand_nom_text_3_3.'</td ></tr></table>
@@ -867,10 +858,8 @@ $body_2 = '
                         <div class="coo'.$style_1.'332l-copy" style="font-family: '.$rand_nom_text_9.'; font-size: '.$rand_nom_text_12.'; 
                         line-height: 21px; text-align: left; color:#33'.$color_rand.'332">'.$sut_mag.$rand_nom_text_17.'<br >
                           '.$name.'!<br >'.$text_mag.'
-                        </div><br>
-                        
-                        </td>
-                        </tr></table>
+                        </div><br></td>
+                        </tr></table >
                         </td>
                         </tr ><tr> 
               
@@ -884,9 +873,7 @@ $body_2 = '
           font-size: '.$rand_nom_text_12.'; line-height: '.$rand_nom_text_14.'; color:#aaaaa'.$color_rand.'; padding-left: '.$rand_nom_text_10.'; padding-right: '.$rand_nom_text_10.'" ><br ><br><strong> 
             
             <a href="'.$site_url.'" style="color:#aaaaa'.$color_rand.'">'.$site_name.'</a >
-             <br></strong>
-             
-             <br>
+             <br ></strong><br>
             '.$name.'! '.$vibor_niz.'
             <span  class="ios23'.$style_1.'foot434">
             
@@ -897,9 +884,9 @@ $body_2 = '
               '.$name.'! <a href="'.$site_url.'otpiska.php" >'.$rand_nom_text_6.'</a>.<br></span >    
             © 2017 <a href="'.$site_url.'" style="color: #aaaaa'.$color_rand.'">'.$site_name.'</a><br>
             <br><br>
-            </td> </tr ></table> </td>
+            </td></tr></table> </td>
             </tr>
-            </table > 
-            </body> </html>
+            </table> 
+            </body></html>
 
 ';
