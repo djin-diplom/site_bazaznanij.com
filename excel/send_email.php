@@ -185,12 +185,12 @@ if ( (int)$i >= (int)$count) {
 
         $body = $body_2;
 
-        $sub_1 = rand(1,2);
+        $sub_1 = 1; //rand(1,2);
 
     switch ($sub_1) {
 
         case 1:
-            $sub_1_text = ' с высокой уникальностью за ';
+            $sub_1_text = ' в праздники за ';
             break;
         case 2:
             $sub_1_text = ' без любого плагиата за ';
@@ -222,11 +222,11 @@ if ( (int)$i >= (int)$count) {
     }
         $sub_1_text = rand_podstav_smv($sub_1_text);
 
-        $sub_2 = rand(1,2);
+        $sub_2 = 1; //rand(1,2);
 
     switch ($sub_2) {
         case 1:
-            $sub_2_text = ' Без предварительной оплаты';//' Нет аванса';
+            $sub_2_text = ' Бесплатно речь, не требуем вперед деньги';//' Нет аванса';
             break;
         case 2:
             $sub_2_text = ' Нет предварительных оплат';//' Без аванса';
@@ -261,9 +261,9 @@ if ( (int)$i >= (int)$count) {
 
         if ($predmet != '') $predmet = $predmet.'.';
 
-        $dobroe_text = rand_podstav_smv('Здравствуй, ');
+        $dobroe_text = rand_podstav_smv('С Новым годом, ');
 
-        $subject =  $name . ". " . $vid_rab . $sub_1_text .$pay . ". ". $sub_2_text;
+        $subject =  $dobroe_text. $name . "! " . $vid_rab . $sub_1_text .$pay . ". ". $sub_2_text;
         //$subject =    $name.". ".$vid_rab . $sub_1_text . $pay . ". ".$predmet. $sub_2_text;
 
         $sender = new sender($email, $site_name, $subject, '', $password);
