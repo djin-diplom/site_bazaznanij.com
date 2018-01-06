@@ -1,7 +1,7 @@
 <?php
 
-$main_name =  "basisznanij.ru";
-$email2 =  "basisznanij@gmail.com";
+$main_name =  "vivazachet.ru";
+$email2 =  "vivazachet@gmail.com";
 
 $url_town_piter = 'https://'.$main_name.'/';
 $url_town_moscow = 'http://moscow.'.$main_name.'/';
@@ -26,12 +26,12 @@ $site_otzv_name_2 = "Студенческие отзывы";
 $site_otzv_url_2 = "http://otzyv.96.lt/raiting/74/basisznanij/";
 
 
-$site_name = "Basisznanij.ru";//'Vivastudent.ru';
-$site_name_2 = "Basisznanij";//'www.vivastudent.ru';
-$site_name_3 = "Basisznanij_ru";//'vivastudent.ru';
-$site_name_4 = "Basisznanij.Ru";//'vivastudent.ru';
-$site_name_5 = "BasisZnanij";//'www.vivastudent.ru';
-$site_name_6 = "BasisZnanij_Ru";//'vivastudent.ru';
+$site_name = "Vivazachet.ru";//'Vivastudent.ru';
+$site_name_2 = "Vivazachet";//'www.vivastudent.ru';
+$site_name_3 = "Vivazachet_ru";//'vivastudent.ru';
+$site_name_4 = "Vivazachet.Ru";//'vivastudent.ru';
+$site_name_5 = "VivaZachet";//'www.vivastudent.ru';
+$site_name_6 = "VivaZachet.ru";//'vivastudent.ru';
 $password = '111qwaszx';
 $site_url = "https://".$main_name."/";
 $email = "zakaz@".$main_name;
