@@ -56,11 +56,11 @@ $name = rand_podstav_smv($name);
 $vibor_let_case = 1;//rand(1,3);
 
 $unik_vibor_let_case = 70 + rand(1, 3)*5;
-$skidka_vibor_let_case = 7 + rand(2, 4)*5;
+$skidka_vibor_let_case = 5 + rand(2, 4)*5;
 
 switch ($vibor_let_case) {
     case 1:
-        $vibor_let = 'Праздничное снижение цен до '.$skidka_vibor_let_case.'%.
+        $vibor_let = 'Январские цены ниже на '.$skidka_vibor_let_case.'%.
         ';
         break;
     case 2:
@@ -82,7 +82,7 @@ $vibor_akc_case = 1;//rand(1,3);
 switch ($vibor_akc_case) {
 
     case 1:
-        $vibor_akc = 'Выполняем срочные заказы без переплат.
+        $vibor_akc = 'Беспредоплатный сезон открыт.
         ';
         break;
     case 2:
@@ -119,7 +119,7 @@ $balls = rand(478,492)/100;
 switch ($vibor_pris_case) {
 
     case 1:
-        $vibor_pris = ' и я, Мария Бондарева, страший менеджер учебного портала, предлагаем вам качественную работу по вашей теме без предоплаты.
+        $vibor_pris = ' и я, исполнительный директор компании Владимир Бакутеев, дарим всем новым клиентам работу без предоплаты со скидками 10-20%.
         ';
         break;
     case 2:
@@ -156,7 +156,7 @@ $text_kurs_case = 1;//rand(1,3);
 switch ($text_kurs_case) {
 
     case 1:
-        $text_kurs = 'Курсовые от опытных преподавателей в сжатые сроки без завышения стоимости.
+        $text_kurs = 'Мы проверяем все работы в etxt, antiplagiat, а также во внутривузовских системах антиплагиата.
         ';
         break;
     case 2:
@@ -180,7 +180,7 @@ $text_dip_case = 1;//rand(1,3);
 switch ($text_dip_case) {
 
     case 1:
-        $text_dip = 'Выпускные работы для университетов и колледжей от доцентов и профессоров.
+        $text_dip = 'Часто требуется сделать работы быстрее. В нашей компании за это не нужно переплачивать.
         ';
         break;
     case 2:
@@ -207,7 +207,7 @@ $rand_mag_proc = rand(87, 95);
 
 switch ($text_mag_case) {
     case 1: 
-        $text_mag = 'Проверка уникальности в шести системах, в том числе во внутривузовских.
+        $text_mag = 'Среди наших авторов много преподавателей, специалистов с научными степенями.
         ';
         break;
     case 2:
@@ -230,7 +230,7 @@ $town_mass = array_rand($town, 2);
 
 switch ($vibor_filial_case) {
     case 1:
-        $vibor_filial = 'Нет предоплат для всех новых заказчиков!
+        $vibor_filial = 'Всем новым клиентам дополнительные скидки.
         ';
         break;
     case 2:
@@ -408,9 +408,9 @@ $rand_nom_3 = 1; //rand(1,8);
 switch ($rand_nom_3) {
 
     case 1:
-        $rand_nom_text_3_1 = 'Уникальные курсовые';
-        $rand_nom_text_3_2 = 'Уникальные дипломы';
-        $rand_nom_text_3_3 = 'Новые диссертации';
+        $rand_nom_text_3_1 = 'Уникальные тексты';
+        $rand_nom_text_3_2 = 'Ускорение без переплат';
+        $rand_nom_text_3_3 = 'Авторы преподаватели';
         break;
     case 2:
         $rand_nom_text_3_1 = 'Курсовой';
@@ -461,7 +461,8 @@ $rand_nom_4 = 1; //rand(1,2);
 switch ($rand_nom_4) {
 
     case 1:
-        $rand_nom_text_4 = 'Закажи работу без труда';
+        $rand_nom_text_4 = 'Заказ работы (нажми на ссылку)
+        ';
         break;
     case 2:
         $rand_nom_text_4 = 'Отправить темы';
@@ -485,7 +486,7 @@ $rand_nom_5 = 1; //rand(1,5);
 switch ($rand_nom_5) {
 
     case 1:
-        $rand_nom_text_5 = 'реши проблемы учебы сейчас и закажи у нас';
+        $rand_nom_text_5 = 'просто нажми сюда и заполни форму!';
         break;
     case 2:
         $rand_nom_text_5 = 'закажите здесь';
@@ -508,7 +509,7 @@ $rand_nom_6 = 1; //rand(1,5);
 switch ($rand_nom_6) {
 
     case 1:
-        $rand_nom_text_6 = 'Больше не присылать мне письма';
+        $rand_nom_text_6 = 'Отказ от получения писем';
         break;
     case 2:
         $rand_nom_text_6 = 'Отписка';
@@ -551,7 +552,7 @@ $rand_nom_8 = 1; //rand(1,2);
 
 switch ($rand_nom_8) {
     case 1:
-        $rand_nom_text_8 = ' в Рождество за ';
+        $rand_nom_text_8 = ' в январе за ';
         break;
     case 2:
         $rand_nom_text_8 = ' без любого плагиата за ';
@@ -733,7 +734,7 @@ $rand_nom_17 = 1;//rand(1,5);
 switch ($rand_nom_17) {
 
     case 1:
-        $rand_nom_text_17 = '  дней на выполнение заказа';
+        $rand_nom_text_17 = '  дн. на заказ';
         break;
     case 2:
         $rand_nom_text_17 = ' дн.';
