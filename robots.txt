@@ -1,4 +1,4 @@
 User-Agent: *
 Disallow:
 
-Host: bazaznanij.com
+Host: www.vivastudent.ru
