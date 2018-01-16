@@ -1,7 +1,7 @@
 <?php
 
-$main_name =  "Bazaznanij.com";
-$email2 =  "Bazaznanijspb@gmail.com";
+$main_name =  "vivastudent.ru";
+$email2 =  "vivastudent.ru@gmail.com";
 
 $url_town_piter = 'http://'.$main_name.'/';
 $url_town_moscow = 'http://moscow.'.$main_name.'/';
@@ -17,16 +17,16 @@ $site_phone = '8 (800) 411-32-26';
 $img_path_1 = "./index_files/1_logo.jpg";
 $img_path_2 = "1_logo.jpg";
 
-$date_site = date_create('2017-10-01');
+$date_site = date_create('2018-20-01');
 
 
 $site_otzv_name_1 = "Студенческие работы";
-$site_otzv_url_1 = "http://vivastudent.ru/1001-bazaznanij_com.html";
+$site_otzv_url_1 = "http://bbb/1001-vivastudent_ru.html";
 $site_otzv_name_2 = "Студенческие отзывы";
-$site_otzv_url_2 = "http://otzivi.16mb.com/raiting/74/bazaznanij/";
+$site_otzv_url_2 = "http://ааа/raiting/74/vivastudent/";
 
 
-    $site_name = "Bazaznanij_com";
+    $site_name = "vivastudent.ru";
     $site_name_2 = "Bazaznanij";
     $site_name_3 = "Bazaznanij com";
     $site_name_4 = "Bazaznanij_com";
@@ -51,7 +51,7 @@ $site_otzv_url_2 = "http://otzivi.16mb.com/raiting/74/bazaznanij/";
     $adres = "г. Санкт-Петербург, ул. Ленина,<br> дом № 28, oф. 56";
     $url_adres_yandex = "https://yandex.ru/maps/-/CBUcmEFopA";
     $url_adres_yandex_frame = "<iframe src=\"https://yandex.ru/map-widget/v1/-/CBUcmEFopA\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
-    $url_oplata = "https://money.yandex.ru/to/410015147640511";
+    $url_oplata = "https://money.yandex.ru/to/";
 
 $main_name_temp = $main_name;
 
