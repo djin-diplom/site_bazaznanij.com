@@ -8,7 +8,7 @@ class sender
 	public $smtp_data;
 	public $mail_content;
 
-	public function __construct($email,$site_name,$subject,$body,$password) {
+	public function __construct($email,$name_manager,$subject,$body,$password) {
 		print "Работает конструктор <br>";
 		$this->smtp_data = array(
 			"host"			=> 'mx1.hostinger.ru',			// SMTP сервер

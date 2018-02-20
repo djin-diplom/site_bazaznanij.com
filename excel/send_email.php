@@ -10,61 +10,6 @@ set_time_limit(0);
 ob_implicit_flush();
 error_reporting(E_ALL);
 
-$i = (int)$_GET['nomer'];
-$j = $i % 12;
-switch ($j) {
-    case 0:
-        $email = $email_1;
-        $name_manager = $name_manager_1;
-        break;
-    case 1:
-        $email = $email_2;
-        $name_manager = $name_manager_2;
-        break;
-    case 2:
-        $email = $email_3;
-        $name_manager = $name_manager_3;
-        break;
-    case 3:
-        $email = $email_4;
-        $name_manager = $name_manager_4;
-        break;
-    case 4:
-        $email = $email_5;
-        $name_manager = $name_manager_5;
-        break;
-    case 5:
-        $email = $email_6;
-        $name_manager = $name_manager_6;
-        break;
-    case 6:
-        $email = $email_7;
-        $name_manager = $name_manager_7;
-        break;
-    case 7:
-        $email = $email_8;
-        $name_manager = $name_manager_8;
-        break;
-    case 8:
-        $email = $email_9;
-        $name_manager = $name_manager_9;
-        break;
-    case 9:
-        $email = $email_10;
-        $name_manager = $name_manager_10;
-        break;
-    case 10:
-        $email = $email_11;
-        $name_manager = $name_manager_11;
-        break;
-    case 11:
-        $email = $email_12;
-        $name_manager = $name_manager_12;
-        break;
-}
-
-
-
 require_once ("sender.php");
 
 $filename = $_GET['filename'];
@@ -83,7 +28,7 @@ $file_path_excel = "files/".$filename;
 
 $ar=readExelFile($file_path_excel);
 
-
+$i = (int)$_GET['nomer'];
 $count = count($ar);
 
 
@@ -334,7 +279,7 @@ if ( (int)$i >= (int)$count) {
         $subject =  $name . "! " . $vid_rab . $sub_1_text .$pay . ". ". $sub_2_text;
         //$subject =    $name.". ".$vid_rab . $sub_1_text . $pay . ". ".$predmet. $sub_2_text;
 
-        $sender = new sender($email, $site_name, $subject, '', $password);
+        $sender = new sender($email, $name_manager, $subject, '', $password);
 
         $message_text = $body;
 
