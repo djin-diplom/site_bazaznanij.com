@@ -1,7 +1,7 @@
 <?php
 
-$main_name =  "vivazachet.ru";
-$email2 =  "vivazachet@gmail.com";
+$main_name =  "diplomfabrika.ru";
+$email2 =  "diplomfabrika.ru@gmail.com";
 
 $url_town_piter = 'https://'.$main_name.'/';
 $url_town_moscow = 'http://moscow.'.$main_name.'/';
@@ -12,46 +12,60 @@ $vremia_raboti = "С 9:00 до 19:00, выходной воскресенье";
 $site_phone = '8 (800) 411-32-26';
 
 
-//$img_path_1 = "./index_files/1_logo_55 (2).png";
-//$img_path_2 = "1_logo_55 (2).png";
-$img_path_1 = "./index_files/1_logo.jpg";
-$img_path_2 = "1_logo.jpg";
+//$img_path_1 = "./index_files/1_logo_55(2).png";
+//$img_path_2 = "1_logo_55(2).png";
+//$img_path_1 = "./index_files/1_logo.jpg";
+//$img_path_2 = "1_logo.jpg";
+$img_path_1 = "./index_files/diplomfabrika.png";
+$img_path_2 = "diplomfabrika.png";
 
-$date_site = date_create('2017-12-01');
+$date_site = date_create('2018-02-10');
 
 
 $site_otzv_name_1 = "Студенческие работы";
-$site_otzv_url_1 = "http://viva-magisters.ru/1001-basisznanij_ru.html";
+$site_otzv_url_1 = "http://bazaznanij.com/1001-diplomfabrika_ru.html";
 $site_otzv_name_2 = "Студенческие отзывы";
-$site_otzv_url_2 = "http://otzyv.96.lt/raiting/74/basisznanij/";
+$site_otzv_url_2 = "http://otzyv.pe.hu/raiting/74/diplomfabrika/";
 
 
-$site_name = "Vivazachet.ru";//'Vivastudent.ru';
-$site_name_2 = "Vivazachet";//'www.vivastudent.ru';
-$site_name_3 = "Vivazachet_ru";//'vivastudent.ru';
-$site_name_4 = "Vivazachet.Ru";//'vivastudent.ru';
-$site_name_5 = "VivaZachet";//'www.vivastudent.ru';
-$site_name_6 = "VivaZachet.ru";//'vivastudent.ru';
+$site_name = "diplomfabrika.ru";//'Vivastudent.ru';
+$site_name_2 = "diplomfabrika.ru";//'www.vivastudent.ru';
+$site_name_3 = "diplomfabrika.ru";//'vivastudent.ru';
+$site_name_4 = "diplomfabrika.ru";//'vivastudent.ru';
+$site_name_5 = "diplomfabrika.ru";//'www.vivastudent.ru';
+$site_name_6 = "diplomfabrika.ru";//'vivastudent.ru';
 $password = '111qwaszx';
-$site_url = "https://".$main_name."/";
+$site_url = "http://".$main_name."/";
 $email = "zakaz@".$main_name;
-$email_1 = "advertisement@".$main_name;// +
-$email_2 = "advertising@".$main_name;// +
-$email_3 = "promotion@".$main_name;// +
-$email_4 = "advt@".$main_name;// +
-$email_5 = "public@".$main_name;// +
-$email_6 = "zakaz@".$main_name;// +
-$email_7 = "info@".$main_name;// +
-$email_8 = "inform@".$main_name;// +
-$email_9 = "information@".$main_name;// +
-$email_10 = "order@".$main_name;// +
-$email_11 = "promo@".$main_name;// +
-$email_12 = "publicity@".$main_name;// +
+$email_1 = "andrievskaya@".$main_name;// +
+$name_manager_1 = "Нина Андриевская";
+$email_2 = "bondareva@".$main_name;// +
+$name_manager_2 = "Анастасия Бондарева";
+$email_3 = "kizenko@".$main_name;// +
+$name_manager_3 = "Наталья Кизенко";
+$email_4 = "andrievskaya@".$main_name;// +
+$name_manager_4 = "Нина Андриевская";
+$email_5 = "bondareva@".$main_name;// +
+$name_manager_5 = "Анастасия Бондарева";
+$email_6 = "kizenko@".$main_name;// +
+$name_manager_6 = "Наталья Кизенко";
+$email_7 = "andrievskaya@".$main_name;// +
+$name_manager_7 = "Нина Андриевская";
+$email_8 = "bondareva@".$main_name;// +
+$name_manager_8 = "Анастасия Бондарева";
+$email_9 = "kizenko@".$main_name;// +
+$name_manager_9 = "Наталья Кизенко";
+$email_10 = "andrievskaya@".$main_name;// +
+$name_manager_10 = "Нина Андриевская";
+$email_11 = "bondareva@".$main_name;// +
+$name_manager_11 = "Анастасия Бондарева";
+$email_12 = "kizenko@".$main_name;// +
+$name_manager_12 = "Наталья Кизенко";
 $email3 = "info@".$main_name;
-$adres = "г. Санкт-Петербург, ул. Пушкина, <br>дом № 15, oф. 104-105";
-$url_adres_yandex = "https://yandex.ru/maps/-/CBavn2UEWC";
-$url_adres_yandex_frame = "<iframe src=\"https://yandex.ru/map-widget/v1/-/CBavn2UEWC\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
-$url_oplata = "https://money.yandex.ru/to/410015230296657";
+$adres = "г. Санкт-Петербург, ул. Жуковского, <br>дом № 14, oф. 125-126";
+$url_adres_yandex = "https://yandex.ru/maps/-/CBeJfBT4-D";
+$url_adres_yandex_frame = "<iframe src=\"https://yandex.ru/map-widget/v1/-/CBeJfBT4-D\" width=\"560\" height=\"400\" frameborder=\"0\"></iframe>";
+$url_oplata = "https://money.yandex.ru/to/410016067116122";
 
 $main_name_temp = $main_name;
 

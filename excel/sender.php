@@ -18,7 +18,7 @@ class sender
 			"port"			=> 587,					// Порт SMTP сервера
 			"username"		=> $email, // Логин на SMTP сервере
 			"password"		=> $password, 				// Пароль на SMTP сервере
-			"fromname"		=> $site_name, 		// Отображаемое имя отправителя
+			"fromname"		=> $name_manager, 		// Отображаемое имя отправителя
 			"replyto"		=> array(
 				"address"	=> '', 	// адрес почты для ответа
 				"name"		=> ''	//отображаемое имя владельца ящика
