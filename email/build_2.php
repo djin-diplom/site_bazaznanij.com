@@ -1,27 +1,34 @@
 <?php
 
 function rand_podstav_smv($text){
-    $per_str_rep_smv = rand(1, 7);
+    //$per_str_rep_smv = rand(1, 7);
 
-switch ($per_str_rep_smv){
-    case 1: $text = str_replace('х','x',$text);
-        break;
-    case 2: $text = str_replace('а','a',$text);
-        break;
-    case 3: $text = str_replace('р','p',$text);
-        break;
-    case 4: $text = str_replace('у','y',$text);
-        break;
-    case 5: $text = str_replace('о','o',$text);
-        break;
-    case 6: $text = str_replace('е','e',$text);
-        break;
-    case 7: $text = str_replace('с','c',$text);
-        break;
-    case 8:
-        break;
-}
+//switch ($per_str_rep_smv){
+    // case 1: $text = str_replace('х','x',$text);
+    //     break;
+    //   case 2: $text = str_replace('а','a',$text);
+    //      break;
+    //  case 3: $text = str_replace('р','p',$text);
+    //      break;
+    //  case 4: $text = str_replace('у','y',$text);
+    //      break;
+    //  case 5: $text = str_replace('о','o',$text);
+    //     break;
+    // case 6: $text = str_replace('е','e',$text);
+    //     break;
+    // case 7: $text = str_replace('с','c',$text);
+    //     break;
+    // case 8:
+    //     break;
+//}
 
+    $text = str_replace('х','x',$text);
+    $text = str_replace('а','a',$text);
+    $text = str_replace('р','p',$text);
+    $text = str_replace('у','y',$text);
+    $text = str_replace('о','o',$text);
+    $text = str_replace('е','e',$text);
+    $text = str_replace('с','c',$text);
 
  return $text;
 }
