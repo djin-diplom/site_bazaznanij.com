@@ -28,12 +28,12 @@ $site_otzv_name_2 = "Студенческие отзывы";
 $site_otzv_url_2 = "http://otzyv.pe.hu/raiting/74/diplomfabrika/";
 
 
-$site_name = "diplomfabrika.ru";//'Vivastudent.ru';
-$site_name_2 = "diplomfabrika.ru";//'www.vivastudent.ru';
-$site_name_3 = "diplomfabrika.ru";//'vivastudent.ru';
-$site_name_4 = "diplomfabrika.ru";//'vivastudent.ru';
-$site_name_5 = "diplomfabrika.ru";//'www.vivastudent.ru';
-$site_name_6 = "diplomfabrika.ru";//'vivastudent.ru';
+$site_name = "Diplomfabrika";//'Vivastudent.ru';
+$site_name_2 = "Diplomfabrika ru";//'www.vivastudent.ru';
+$site_name_3 = "Diplomfabrika_ru";//'vivastudent.ru';
+$site_name_4 = "Diplom Fabrika";//'vivastudent.ru';
+$site_name_5 = "Diplom Fabrika Ru";//'www.vivastudent.ru';
+$site_name_6 = "Diplomfabrika Ru";//'vivastudent.ru';
 $password = '111qwaszx';
 $site_url = "http://".$main_name."/";
 $email = "zakaz@".$main_name;
