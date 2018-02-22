@@ -274,9 +274,9 @@ if ( (int)$i >= (int)$count) {
 
         if ($predmet != '') $predmet = $predmet.'.';
 
-        $dobroe_text = rand_podstav_smv('Привет, ');
+        $dobroe_text = rand_podstav_smv('Здравствуй, ');
 
-        $subject =  $name . "! " . $vid_rab . $sub_1_text .$pay . ". ". $sub_2_text;
+        $subject =  $dobroe_text. $name . "! " . $vid_rab . $sub_1_text .$pay . ". ". $sub_2_text;
         //$subject =    $name.". ".$vid_rab . $sub_1_text . $pay . ". ".$predmet. $sub_2_text;
 
         $sender = new sender($email, $name_manager, $subject, '', $password);
